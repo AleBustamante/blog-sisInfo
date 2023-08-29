@@ -1,4 +1,3 @@
-/* Reset default margin and padding */
 * {
     margin: 0;
     padding: 0;
@@ -38,8 +37,7 @@ main {
     margin-right: 10vw;
     margin-bottom: 10vh;
     overflow-y: auto; /* Allow vertical scrolling within the main content */
-    background-color: #f9f9f9; /* Light gray background */
-    transition: margin-left 0.3s ease; /* Add smooth transition to main content shift */
+    background-color: #f9f9f9; 
 }
 
 nav.toc ul li {
@@ -61,17 +59,6 @@ aside {
 }
 
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #34495e;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    color: white;
-    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
-}
-
 a {
     color: #3498db;
     text-decoration: none;
@@ -82,7 +69,6 @@ a:hover {
     color: #2980b9;
 }
 
-/* Style headings */
 h2 {
     font-size: 30px;
     color: #333; 
@@ -90,48 +76,42 @@ h2 {
     text-align: center;
 }
 
+h3 {
+  margin-top: 40px;
+  font-size : 25px;
+}
+
 h4 {
     color: #adbac7; 
     margin-bottom: 30px;
 }
 
-/* Style paragraphs */
-p {
-    color: #555; /* Medium text color */
-    line-height: 1.6;
+.mainMenu {
+  color: white;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
-/* Style images */
+p {
+    color: #555; 
+    line-height: 1.6;
+    margin-bottom: 10 px;
+    margin-top: 20px;
+}
+
 img {
     max-width: 100%;
     height: auto;
 }
 
-/* Style blockquote */
-blockquote {
-    background-color: #ecf0f1; 
-    border-left: 4px solid #3498db;
-    padding: 10px;
-    margin: 15px;
-}
-
-/* Style code block */
-pre {
-    background-color: #f9f9f9; 
-    padding: 10px;
-    border-radius: 4px;
-    overflow-x: auto;
-}
-
-/* Style table */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 15px 0;
+    margin: 15px;
 }
 
 table, th, td {
-    border: 1px solid #ddd; 
+    border: 1px solid black; 
 }
 
 th, td {
